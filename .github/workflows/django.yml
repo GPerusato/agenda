@@ -29,3 +29,6 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
+    - name: Run django
+      run: |
+        python manage.py runserver 0.0.0.0:80
